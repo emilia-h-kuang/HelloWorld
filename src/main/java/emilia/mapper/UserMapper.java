@@ -24,4 +24,8 @@ public interface UserMapper {
 
     @Insert("insert into tb_user values (null,#{username},#{password})")
     void add(@Param("username") String username, @Param("password") String password);
+
+
+
+
 }
